@@ -54,6 +54,7 @@ Each product must be of exactly one [type](#product-type), for example, a rig, m
 ### Variant
 
 Usually, a product needs to be created in multiple *'flavors'*. A character might have multiple different looks, a model needs to be published in different resolutions, a standard animation rig might not be usable in a crowd system, and so on. Variants are here to accommodate all this variety that might be needed within a single asset. A model might have variant: *'main'*, *'proxy'*, *'sculpt'*, while a Product of *'look'* family could have Products *'main'*, *'dirty'*, *'damaged'*. Variants have some default recommendations for their names, but ultimately it's up to the artist to use them for separation of publishes when needed.
+A "variant" does not add any structural layer to your database beyond naming conventions of individual products. The Variant attribute in the Publisher tool only provides a string which can be used in product templates to help determine the name of a product when publishing.
 
 ### Version
 
